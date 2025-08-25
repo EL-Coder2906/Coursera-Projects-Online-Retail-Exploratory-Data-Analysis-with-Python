@@ -23,7 +23,7 @@
 - Removed duplicate rows (5,261 duplicates found and dropped).
 - Removed negative-quantity rows (returns/cancellations): 8,871 rows identified and dropped.
 - Removed rows with UPrice ≤ 0 (40 entries with zero/negative price removed).
-- Outliers removed using IQR filtering on `UnitPrice` and `Quant`:
+- Outliers removed using IQR filtering on `UnitPrice` and `Quantity`:
     - Q1: UPrice=1.25, QTY=2.0
     - Q3: UPrice=3.75, QTY=12.0
     - IQR: UPrice=2.5, QTY=10.0
